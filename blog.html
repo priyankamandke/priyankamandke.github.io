@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Priyanka Mandke</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Priyanka Mandke</div>
+            <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main style="margin-top: 70px;">
+        <section class="blog-hero">
+            <div class="container">
+                <h1>Technical Blog</h1>
+                <p class="blog-subtitle">Insights on AWS, Node.js, microservices, and enterprise cloud architecture</p>
+            </div>
+        </section>
+
+        <section class="blog-content">
+            <div class="container">
+                <div class="blog-grid">
+                    <article class="blog-post featured">
+                        <div class="post-meta">
+                            <span class="post-date">Published on Medium</span>
+                            <span class="post-category">AWS</span>
+                        </div>
+                        <h2><a href="https://medium.com/@priyankamandke/the-aws-services-didnt-make-your-system-complex-13ba688bfdad">The AWS Services Didn't Make Your System Complex</a></h2>
+                        <p class="post-excerpt">Exploring how system complexity often stems from design decisions rather than AWS services themselves. Understanding the real sources of complexity in cloud architectures.</p>
+                        <div class="post-tags">
+                            <span class="tag">AWS</span>
+                            <span class="tag">System Design</span>
+                            <span class="tag">Architecture</span>
+                            <span class="tag">Complexity</span>
+                        </div>
+                        <a href="https://medium.com/@priyankamandke/the-aws-services-didnt-make-your-system-complex-13ba688bfdad" class="read-more">Read on Medium →</a>
+                    </article>
+
+                    <article class="blog-post featured">
+                        <div class="post-meta">
+                            <span class="post-date">Published on Medium</span>
+                            <span class="post-category">Cloud Systems</span>
+                        </div>
+                        <h2><a href="https://medium.com/@priyankamandke/why-async-by-default-changes-everything-in-cloud-systems-ef8c07e31eed">Why Async by Default Changes Everything in Cloud Systems</a></h2>
+                        <p class="post-excerpt">Deep dive into asynchronous patterns in cloud systems and how they fundamentally change system design, reliability, and scalability approaches.</p>
+                        <div class="post-tags">
+                            <span class="tag">Async</span>
+                            <span class="tag">Cloud Systems</span>
+                            <span class="tag">Architecture</span>
+                            <span class="tag">Scalability</span>
+                        </div>
+                        <a href="https://medium.com/@priyankamandke/why-async-by-default-changes-everything-in-cloud-systems-ef8c07e31eed" class="read-more">Read on Medium →</a>
+                    </article>
+
+                    <article class="blog-post">
+                        <div class="post-meta">
+                            <span class="post-date">Published on Medium</span>
+                            <span class="post-category">API Design</span>
+                        </div>
+                        <h2><a href="https://medium.com/@priyankamandke/designing-apis-for-humans-not-just-systems-444b16d0f7a9">Designing APIs for Humans, Not Just Systems</a></h2>
+                        <p class="post-excerpt">Best practices for creating developer-friendly APIs that prioritize human experience alongside system efficiency and performance.</p>
+                        <div class="post-tags">
+                            <span class="tag">API Design</span>
+                            <span class="tag">Developer Experience</span>
+                            <span class="tag">Best Practices</span>
+                            <span class="tag">Human-Centered</span>
+                        </div>
+                        <a href="https://medium.com/@priyankamandke/designing-apis-for-humans-not-just-systems-444b16d0f7a9" class="read-more">Read on Medium →</a>
+                    </article>
+
+                    <article class="blog-post">
+                        <div class="post-meta">
+                            <span class="post-date">Published on Medium</span>
+                            <span class="post-category">Serverless</span>
+                        </div>
+                        <h2><a href="https://medium.com/@priyankamandke/why-most-serverless-systems-fail-before-scale-and-how-to-avoid-it-589e43f1db71">Why Most Serverless Systems Fail Before Scale (and How to Avoid It)</a></h2>
+                        <p class="post-excerpt">Common pitfalls in serverless architecture design and practical strategies to build resilient serverless systems that can handle growth.</p>
+                        <div class="post-tags">
+                            <span class="tag">Serverless</span>
+                            <span class="tag">AWS Lambda</span>
+                            <span class="tag">Scalability</span>
+                            <span class="tag">Architecture</span>
+                        </div>
+                        <a href="https://medium.com/@priyankamandke/why-most-serverless-systems-fail-before-scale-and-how-to-avoid-it-589e43f1db71" class="read-more">Read on Medium →</a>
+                    </article>
+
+                    <article class="blog-post">
+                        <div class="post-meta">
+                            <span class="post-date">Published on Medium</span>
+                            <span class="post-category">Event-Driven</span>
+                        </div>
+                        <h2><a href="https://medium.com/@priyankamandke/eventbridge-vs-sqs-choosing-the-right-backbone-for-event-driven-systems-d2be96562ca0">EventBridge vs SQS: Choosing the Right Backbone for Event-Driven Systems</a></h2>
+                        <p class="post-excerpt">Comprehensive comparison of AWS EventBridge and SQS for building event-driven architectures, with practical decision-making guidance.</p>
+                        <div class="post-tags">
+                            <span class="tag">EventBridge</span>
+                            <span class="tag">SQS</span>
+                            <span class="tag">Event-Driven</span>
+                            <span class="tag">AWS</span>
+                        </div>
+                        <a href="https://medium.com/@priyankamandke/eventbridge-vs-sqs-choosing-the-right-backbone-for-event-driven-systems-d2be96562ca0" class="read-more">Read on Medium →</a>
+                    </article>
+
+                    <article class="blog-post">
+                        <div class="post-meta">
+                            <span class="post-date">Published on Medium</span>
+                            <span class="post-category">API Gateway</span>
+                        </div>
+                        <h2><a href="https://medium.com/@priyankamandke/api-gateway-design-for-microservices-one-gateway-or-many-cdc3e42b151f">API Gateway Design for Microservices: One Gateway or Many?</a></h2>
+                        <p class="post-excerpt">Strategic approaches to API Gateway design in microservices architectures, exploring centralized vs distributed gateway patterns.</p>
+                        <div class="post-tags">
+                            <span class="tag">API Gateway</span>
+                            <span class="tag">Microservices</span>
+                            <span class="tag">Architecture</span>
+                            <span class="tag">Design Patterns</span>
+                        </div>
+                        <a href="https://medium.com/@priyankamandke/api-gateway-design-for-microservices-one-gateway-or-many-cdc3e42b151f" class="read-more">Read on Medium →</a>
+                    </article>
+
+                    <article class="blog-post">
+                        <div class="post-meta">
+                            <span class="post-date">Published on Medium</span>
+                            <span class="post-category">AWS Lambda</span>
+                        </div>
+                        <h2><a href="https://medium.com/@priyankamandke/aws-lambda-cold-starts-what-actually-matters-in-production-d22fcf5a06ba">AWS Lambda Cold Starts: What Actually Matters in Production</a></h2>
+                        <p class="post-excerpt">Practical insights into Lambda cold starts, performance optimization strategies, and what really impacts production systems.</p>
+                        <div class="post-tags">
+                            <span class="tag">AWS Lambda</span>
+                            <span class="tag">Cold Starts</span>
+                            <span class="tag">Performance</span>
+                            <span class="tag">Production</span>
+                        </div>
+                        <a href="https://medium.com/@priyankamandke/aws-lambda-cold-starts-what-actually-matters-in-production-d22fcf5a06ba" class="read-more">Read on Medium →</a>
+                    </article>
+
+                    <article class="blog-post">
+                        <div class="post-meta">
+                            <span class="post-date">Published on Medium</span>
+                            <span class="post-category">Event-Driven APIs</span>
+                        </div>
+                        <h2><a href="https://medium.com/@priyankamandke/event-driven-apis-on-aws-when-api-gateway-should-not-call-lambda-directly-a0f4a70f658f">Event-Driven APIs on AWS: When API Gateway Should Not Call Lambda Directly</a></h2>
+                        <p class="post-excerpt">Advanced patterns for event-driven API design, exploring when to decouple API Gateway from Lambda for better system resilience.</p>
+                        <div class="post-tags">
+                            <span class="tag">Event-Driven APIs</span>
+                            <span class="tag">API Gateway</span>
+                            <span class="tag">AWS Lambda</span>
+                            <span class="tag">Decoupling</span>
+                        </div>
+                        <a href="https://medium.com/@priyankamandke/event-driven-apis-on-aws-when-api-gateway-should-not-call-lambda-directly-a0f4a70f658f" class="read-more">Read on Medium →</a>
+                    </article>
+
+                    <article class="blog-post">
+                        <div class="post-meta">
+                            <span class="post-date">Published on Medium</span>
+                            <span class="post-category">Architecture</span>
+                        </div>
+                        <h2><a href="https://medium.com/@priyankamandke/api-gateway-lambda-vs-api-gateway-container-based-microservice-how-to-choose-the-right-14140406f65d">API Gateway + Lambda vs API Gateway + Container-Based Microservice: How to Choose the Right</a></h2>
+                        <p class="post-excerpt">Decision framework for choosing between serverless and container-based architectures for microservices behind API Gateway.</p>
+                        <div class="post-tags">
+                            <span class="tag">API Gateway</span>
+                            <span class="tag">Lambda</span>
+                            <span class="tag">Containers</span>
+                            <span class="tag">Architecture Decision</span>
+                        </div>
+                        <a href="https://medium.com/@priyankamandke/api-gateway-lambda-vs-api-gateway-container-based-microservice-how-to-choose-the-right-14140406f65d" class="read-more">Read on Medium →</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Priyanka Mandke. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <style>
+        .blog-hero {
+            background: linear-gradient(135deg, #ec4899 0%, #8b5cf6 100%);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .blog-hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .blog-subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .blog-content {
+            padding: 80px 0;
+        }
+
+        .blog-content .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .blog-grid {
+            display: grid;
+            gap: 2rem;
+        }
+
+        .blog-post {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-left: 4px solid #e2e8f0;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .blog-post:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        .blog-post.featured {
+            border-left-color: #fbbf24;
+            background: linear-gradient(135deg, #fffbeb 0%, #ffffff 100%);
+        }
+
+        .post-meta {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            font-size: 0.875rem;
+        }
+
+        .post-date {
+            color: #64748b;
+        }
+
+        .post-category {
+            background: #c026d3;
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 15px;
+            font-weight: 600;
+        }
+
+        .blog-post.featured .post-category {
+            background: #a855f7;
+        }
+
+        .blog-post h2 {
+            margin-bottom: 1rem;
+        }
+
+        .blog-post h2 a {
+            color: #1e293b;
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
+
+        .blog-post h2 a:hover {
+            color: #c026d3;
+        }
+
+        .post-excerpt {
+            color: #64748b;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+
+        .post-tags {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .tag {
+            background: #e2e8f0;
+            color: #475569;
+            padding: 0.25rem 0.75rem;
+            border-radius: 15px;
+            font-size: 0.75rem;
+        }
+
+        .read-more {
+            color: #c026d3;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .read-more:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .blog-hero h1 {
+                font-size: 2rem;
+            }
+            
+            .post-meta {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+        }
+    </style>
+
+    <script>
+        function toggleMobileMenu() {
+            const navMenu = document.querySelector('.nav-menu');
+            const menuToggle = document.querySelector('.mobile-menu-toggle');
+            
+            navMenu.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

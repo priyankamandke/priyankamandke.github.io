@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Priyanka Mandke</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Priyanka Mandke</div>
+            <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main style="margin-top: 70px;">
+        <section class="about-hero">
+            <div class="container">
+                <h1>About Me</h1>
+                <p class="about-subtitle">AWS Cloud Engineer building scalable, event-driven microservices</p>
+            </div>
+        </section>
+
+        <section class="about-content">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h2>My Journey</h2>
+                        <p>I'm an AWS-certified Application Developer with 5 years of experience designing scalable, event-driven microservices using Node.js, AWS Lambda, and containerized architectures. My expertise spans from building production-grade REST APIs serving 100K+ daily users to implementing fault-tolerant backend systems across global enterprise projects.</p>
+                        
+                        <p>Throughout my career, I've focused on improving system uptime, reducing deployment times, and delivering secure, production-ready solutions. I'm passionate about CI/CD practices, system observability, and backend reliability, working closely with cross-functional teams to align technical solutions with business goals.</p>
+
+                        <h3>Professional Experience</h3>
+                        <div class="career-timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-year">2025</div>
+                                <div class="timeline-content">
+                                    <h4>Senior API Developer - Experis IT (ABSLI)</h4>
+                                    <p>Building and scaling Node.js microservices on AWS EKS for high-volume insurance workflows</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-year">2021-2025</div>
+                                <div class="timeline-content">
+                                    <h4>Application Developer - IBM</h4>
+                                    <p>Delivered 50+ production-grade REST APIs using Node.js, AWS Lambda, and API Gateway serving 100K+ daily users</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-year">2020</div>
+                                <div class="timeline-content">
+                                    <h4>Bachelor of Engineering - Computer Engineering</h4>
+                                    <p>University of Mumbai - CGPA: 9.09</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3>Key Achievements</h3>
+                        <ul class="values-list">
+                            <li><strong>AWS re:Invent 2025 Welcome Grant:</strong> Recognized for contributions to modern cloud-native engineering</li>
+                            <li><strong>ISG Women in Digital Awards:</strong> Rising Star Finalist (2025) for excellence in cloud development</li>
+                            <li><strong>IBM Growth Award (2023):</strong> Recognized for backend performance improvements and system reliability</li>
+                            <li><strong>System Performance:</strong> Improved query performance and cut average response time by 30%</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="about-sidebar">
+                        <div class="profile-image">
+                            <img src="photo.jpg" alt="Priyanka Mandke" />
+                        </div>
+                        
+                        <div class="tech-stack">
+                            <h3>Technical Expertise</h3>
+                            <div class="tech-grid">
+                                <span class="tech-item">JavaScript</span>
+                                <span class="tech-item">TypeScript</span>
+                                <span class="tech-item">Node.js</span>
+                                <span class="tech-item">AWS Lambda</span>
+                                <span class="tech-item">DynamoDB</span>
+                                <span class="tech-item">PostgreSQL</span>
+                                <span class="tech-item">AWS SAM</span>
+                                <span class="tech-item">CloudFormation</span>
+                                <span class="tech-item">EventBridge</span>
+                                <span class="tech-item">API Gateway</span>
+                                <span class="tech-item">CloudWatch</span>
+                                <span class="tech-item">Jest</span>
+                            </div>
+                        </div>
+
+                        <div class="current-focus">
+                            <h3>AWS Certifications</h3>
+                            <ul>
+                                <li>AWS Certified DevOps Engineer – Professional</li>
+                                <li>AWS Certified Developer – Associate</li>
+                                <li>AWS Certified Cloud Practitioner</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Priyanka Mandke. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <style>
+        .about-hero {
+            background: linear-gradient(135deg, #ec4899 0%, #8b5cf6 100%);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .about-hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .about-subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .about-content {
+            padding: 80px 0;
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 4rem;
+            align-items: start;
+        }
+
+        .about-text h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            color: #1e293b;
+        }
+
+        .about-text h3 {
+            font-size: 1.5rem;
+            margin: 2rem 0 1rem;
+            color: #1e293b;
+        }
+
+        .about-text p {
+            margin-bottom: 1.5rem;
+            color: #64748b;
+            line-height: 1.7;
+        }
+
+        .career-timeline {
+            margin: 2rem 0;
+        }
+
+        .timeline-item {
+            display: grid;
+            grid-template-columns: 100px 1fr;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .timeline-year {
+            font-weight: bold;
+            color: #c026d3;
+            font-size: 0.9rem;
+        }
+
+        .timeline-content h4 {
+            color: #1e293b;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-content p {
+            color: #64748b;
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        .values-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .values-list li {
+            padding: 0.75rem 0;
+            color: #64748b;
+            line-height: 1.6;
+        }
+
+        .values-list strong {
+            color: #1e293b;
+        }
+
+        .profile-image {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .profile-image img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .image-note {
+            font-size: 0.8rem;
+            color: #64748b;
+            font-style: italic;
+            margin-top: 0.5rem;
+        }
+
+        .tech-stack h3, .current-focus h3 {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            color: #1e293b;
+        }
+
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .tech-item {
+            background: #e2e8f0;
+            color: #475569;
+            padding: 0.5rem;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 0.875rem;
+        }
+
+        .current-focus ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .current-focus li {
+            padding: 0.5rem 0;
+            color: #64748b;
+            position: relative;
+            padding-left: 1.5rem;
+        }
+
+        .current-focus li:before {
+            content: "→";
+            color: #c026d3;
+            position: absolute;
+            left: 0;
+        }
+
+        @media (max-width: 768px) {
+            .about-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .about-hero h1 {
+                font-size: 2rem;
+            }
+
+            .timeline-item {
+                grid-template-columns: 1fr;
+                gap: 0.5rem;
+            }
+        }
+    </style>
+
+    <script>
+        function toggleMobileMenu() {
+            const navMenu = document.querySelector('.nav-menu');
+            const menuToggle = document.querySelector('.mobile-menu-toggle');
+            
+            navMenu.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Priyanka Mandke</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Priyanka Mandke</div>
+            <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main style="margin-top: 70px;">
+        <section class="contact-hero">
+            <div class="container">
+                <h1>Let's Connect</h1>
+                <p class="contact-subtitle">I'm always interested in discussing new opportunities and collaborating on exciting projects</p>
+            </div>
+        </section>
+
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Get In Touch</h2>
+                        <p>I'm passionate about building innovative solutions and always open to discussing new opportunities, whether it's a full-time position, freelance project, or collaboration. Feel free to reach out if you'd like to connect!</p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <h3>📧 Email</h3>
+                                <p><a href="mailto:priyankamandke26@gmail.com">priyankamandke26@gmail.com</a></p>
+                                <small>Best for professional inquiries and detailed discussions</small>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <h3>💼 LinkedIn</h3>
+                                <p><a href="https://linkedin.com/in/priyanka-mandke">linkedin.com/in/priyanka-mandke</a></p>
+                                <small>Connect with me for professional networking</small>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <h3>🐙 GitHub</h3>
+                                <p><a href="https://github.com/priyankamandke">github.com/priyankamandke</a></p>
+                                <small>Check out my latest projects and contributions</small>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <h3>📱 Phone</h3>
+                                <p><a href="tel:+918433677101">+91-8433677101</a></p>
+                                <small>Available for calls during business hours</small>
+                            </div>
+                        </div>
+                        
+                        <div class="availability">
+                            <h3>Current Status</h3>
+                            <p class="status-badge">🚀 Senior API Developer at ABSLI</p>
+                            <p>I'm currently working as a Senior API Developer at Aditya Birla Sun Life Insurance, building scalable Node.js microservices on AWS EKS. Open to discussing:</p>
+                            <ul>
+                                <li>AWS serverless architectures</li>
+                                <li>Node.js/TypeScript development</li>
+                                <li>Microservices and event-driven design</li>
+                                <li>Cloud modernization projects</li>
+                                <li>Speaking and mentoring opportunities</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h2>Send a Message</h2>
+                        <div class="contact-cta">
+                            <p>Ready to discuss your project or opportunity? I'd love to hear from you!</p>
+                            <a href="mailto:priyankamandke26@gmail.com?subject=Portfolio Contact&body=Hi Priyanka,%0D%0A%0D%0AI'd like to discuss..." class="btn btn-primary contact-btn">Send Email</a>
+                            <p class="contact-note">This will open your default email client with my address pre-filled.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Priyanka Mandke. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <style>
+        .contact-hero {
+            background: linear-gradient(135deg, #ec4899 0%, #8b5cf6 100%);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .contact-hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .contact-subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .contact-content {
+            padding: 80px 0;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: start;
+        }
+
+        .contact-info h2,
+        .contact-form h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            color: #1e293b;
+        }
+
+        .contact-info p {
+            color: #64748b;
+            margin-bottom: 2rem;
+            line-height: 1.7;
+        }
+
+        .contact-methods {
+            margin-bottom: 3rem;
+        }
+
+        .contact-method {
+            margin-bottom: 1.5rem;
+            padding: 1.5rem;
+            background: #f8fafc;
+            border-radius: 8px;
+            border-left: 4px solid #c026d3;
+        }
+
+        .contact-method h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: #1e293b;
+        }
+
+        .contact-method p {
+            margin: 0.5rem 0;
+            color: #64748b;
+        }
+
+        .contact-method small {
+            color: #94a3b8;
+            font-style: italic;
+        }
+
+        .contact-method a {
+            color: #c026d3;
+            text-decoration: none;
+        }
+
+        .contact-method a:hover {
+            text-decoration: underline;
+        }
+
+        .availability h3 {
+            color: #1e293b;
+            margin-bottom: 1rem;
+        }
+
+        .status-badge {
+            background: #dcfce7;
+            color: #166534;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            display: inline-block;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .availability ul {
+            color: #64748b;
+            margin-left: 1.5rem;
+        }
+
+        .availability li {
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-form {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .contact-cta {
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        .contact-cta p {
+            color: #64748b;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .contact-btn {
+            background: linear-gradient(135deg, #ec4899 0%, #8b5cf6 100%) !important;
+            color: white !important;
+            border: none !important;
+            padding: 16px 40px !important;
+            border-radius: 12px !important;
+            font-weight: 600 !important;
+            font-size: 1.1rem !important;
+            text-decoration: none !important;
+            display: inline-block;
+            transition: all 0.3s ease;
+            margin-bottom: 1rem;
+        }
+
+        .contact-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(236, 72, 153, 0.3);
+        }
+
+        .contact-note {
+            color: #94a3b8;
+            font-size: 0.9rem;
+            font-style: italic;
+        }
+
+        .form-note {
+            margin-top: 1rem;
+            font-size: 0.875rem;
+            color: #64748b;
+            font-style: italic;
+        }
+
+        @media (max-width: 768px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .contact-hero h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+
+    <script>
+        function toggleMobileMenu() {
+            const navMenu = document.querySelector('.nav-menu');
+            const menuToggle = document.querySelector('.mobile-menu-toggle');
+            
+            navMenu.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

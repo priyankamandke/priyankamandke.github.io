@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyanka Mandke - Software Developer & Cloud Enthusiast</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Priyanka Mandke</div>
+            <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Priyanka Mandke</span></h1>
+                <p class="hero-subtitle">AWS Cloud Engineer | Node.js | TypeScript | Serverless Architectures</p>
+                <p class="hero-description">AWS-certified Application Developer with 5 years of experience designing scalable, event-driven microservices using Node.js, AWS Lambda, and containerized architectures. Proven track record of improving system uptime, reducing deployment times, and delivering secure, production-ready APIs.</p>
+                <div class="hero-buttons">
+                    <a href="projects.html" class="btn btn-primary">View My Work</a>
+                    <a href="contact.html" class="btn btn-secondary">Let's Connect</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-projects">
+            <div class="container">
+                <h2>Featured Work</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Toyota Vehicle Configurative Gateway</h3>
+                        <p>Developed and maintained 50+ microservices for vehicle configuration and validation across global markets using serverless architecture.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">AWS Lambda</span>
+                            <span class="tech-tag">DynamoDB</span>
+                        </div>
+                        <a href="projects.html" class="project-link">Learn more →</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Delta Airlines Cloud Modernization</h3>
+                        <p>Modernized airline backend systems by migrating legacy workloads to AWS serverless architecture using SAM and CI/CD pipelines.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">AWS SAM</span>
+                            <span class="tech-tag">API Gateway</span>
+                            <span class="tech-tag">CodePipeline</span>
+                            <span class="tech-tag">TypeScript</span>
+                        </div>
+                        <a href="projects.html" class="project-link">Explore Solution →</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>ABSLI Policy Services Platform</h3>
+                        <p>Built and scaled Kubernetes-based microservices on AWS EKS for high-volume insurance APIs with improved observability.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">AWS EKS</span>
+                            <span class="tech-tag">Kubernetes</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">CloudWatch</span>
+                        </div>
+                        <a href="projects.html" class="project-link">View Details →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Priyanka Mandke. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const navMenu = document.querySelector('.nav-menu');
+            const menuToggle = document.querySelector('.mobile-menu-toggle');
+            
+            navMenu.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
